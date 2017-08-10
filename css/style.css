@@ -1,0 +1,324 @@
+
+
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	
+	font-size: 11pt;
+	color: #333333;
+	
+	background-image: url('../images/background2.jpg');
+}
+
+a {
+	text-decoration: none;
+	color: #225E79;
+}
+
+div#logo {
+	position:absolute;
+	bottom: 0px;
+	left: 70px;
+
+	
+}
+
+#nonFooter {
+	position: relative;
+	min-height: 100%;
+
+}
+
+* html #nonFooter {
+	height: 100%;
+}
+
+div#jump {
+
+	width: 250px;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin: auto;
+	float: left;
+}
+
+div#jump img
+{
+	border:0px;
+}
+
+
+div#header {
+	height: 150px;
+	width: 700px;
+	text-align: right;
+
+
+
+	float:left;
+	
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+	
+}
+
+
+
+div#navigation {
+	float: left;
+	width: 200px;
+	
+	margin-top: 0px;
+	margin-left: 50px;
+	
+	/* border-top-left-radius: 10px 10px; 
+	border-bottom-left-radius: 10px 10px; */
+	
+}
+
+div#navigation ul.menu {
+	padding: 0px;
+	padding-top: 0px;
+	
+	list-style: none;
+	
+	
+	
+}
+
+div#navigation ul.menu li {
+
+	list-style: none;
+	
+	padding: 0px;
+	margin: 0px;
+	
+	margin-bottom: 20px;
+	
+}
+
+
+div#navigation ul.menu ul {
+	padding: 0px;
+	list-style: none;
+	
+}
+
+div#navigation ul.menu li a {
+	
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	
+	width: 184px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	
+	color: #000000;
+	background-color: #3BA3D0;
+	
+}
+
+div#navigation ul.menu li.menu-mlid-0 a {
+	background-color: #3BA3D0;
+}
+
+/* TAGI MENU Color */
+div#navigation ul.menu li.menu-mlid-851 a {
+	background-color: #3BA3D0;
+}
+
+div#navigation ul.menu li.menu-mlid-855 a {
+	background-color: #C03325;
+}
+
+div#navigation ul.menu li.menu-mlid-853 a {
+	background-color: #97CBF1;
+}
+
+div#navigation ul.menu li.menu-mlid-858 a {
+	background-color: #F6D635;
+}
+
+div#navigation ul.menu li.menu-mlid-854 a {
+	background-color: #A3B935;
+}
+
+div#navigation ul.menu li.menu-mlid-856 a {
+	background-color: #DB9229;
+}
+
+div#navigation ul.menu li.menu-mlid-857 a {
+	background-color: #C6518A;
+}
+div#navigation ul.menu li.menu-mlid-799 a {
+	background-color: #3BA3D0;
+}
+
+/* KRIPPE MENU Color */
+
+div#navigation ul.menu li.menu-mlid-852 a {
+	background-color: #3BA3D0;
+}
+
+div#navigation ul.menu li.menu-mlid-864 a {
+	background-color: #C03325;
+}
+
+div#navigation ul.menu li.menu-mlid-861 a {
+	background-color: #97CBF1;
+}
+
+div#navigation ul.menu li.menu-mlid-865 a {
+	background-color: #F6D635;
+}
+
+div#navigation ul.menu li.menu-mlid-867 a {
+	background-color: #A3B935;
+}
+
+div#navigation ul.menu li.menu-mlid-868 a {
+	background-color: #DB9229;
+}
+
+div#navigation ul.menu li.menu-mlid-866 a {
+	background-color: #C6518A;
+}
+div#navigation ul.menu li.menu-mlid-869 a {
+	background-color: #3BA3D0;
+}
+
+/* Nepomuk MENU Color */
+
+div#navigation ul.menu li.menu-mlid-2801 a {
+	background-color: #3BA3D0;
+}
+
+div#navigation ul.menu li.menu-mlid-2802 a {
+	background-color: #C03325;
+}
+
+div#navigation ul.menu li.menu-mlid-2803 a {
+	background-color: #97CBF1;
+}
+
+div#navigation ul.menu li.menu-mlid-2804 a {
+	background-color: #F6D635;
+}
+
+div#navigation ul.menu li.menu-mlid-2805 a {
+	background-color: #A3B935;
+}
+
+div#navigation ul.menu li.menu-mlid-2806 a {
+	background-color: #DB9229;
+}
+
+div#navigation ul.menu li.menu-mlid-2807 a {
+	background-color: #C6518A;
+}
+div#navigation ul.menu li.menu-mlid-2808 a {
+	background-color: #3BA3D0;
+}
+
+div#navigation ul.menu ul li a {
+	
+	width: 160px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+div#navigation ul.menu li a.active {
+	background-color: #0772A1;
+}
+
+div#navigation ul.menu li a:hover {
+	background-color: #225E79;
+}
+
+
+div#contentWrapper {
+	background-color: #dfe58b;
+	margin-left: 300px;
+	width: 660px;
+	padding: 20px;
+	padding-bottom: 100px;
+	
+}
+
+div#main {
+	clear: left;
+
+}
+
+div#frontWrapper {
+	margin: auto;
+
+	width: 780px;
+	text-align: center;
+	padding: 30px;
+}
+
+
+
+div#frontWrapper img
+{
+	padding: 0px;
+	margin:0px;
+	border:0px;
+
+
+}
+
+#footer {
+	
+	position: relative;
+	margin-top: -50px;
+	
+	height: 30px;
+	padding: 10px;
+	
+	clear: left;
+
+
+	background-color: #024A68;
+	text-align: right;
+	font-size: 13px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+img#logo {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	bottom: 30px;
+	left: 40px;
+}
+
+p.welcometitle {
+	margin: auto;
+	text-align: center;
+	padding: 30px;
+	font-size: 28pt;
+	font-weight: bold;
+	clear: both;
+}
