@@ -1,9 +1,9 @@
 	<div id="nonFooter">
 	<div id="jump">
 		<?php 
-			$krippe = array(4,14,15,16,18,19,17,20);
-			$tagi = array(1,8,10,13,9,11,12,3);
-			$nepomuk = array(23,24,25,26,27,28,29,30);
+			$krippe = array(4,14,15,16,18,19,17,20,33);
+			$tagi = array(1,8,10,13,9,11,12,3,32);
+			$nepomuk = array(23,24,25,26,27,28,29,30,34);
 
 			//print_r($node);
 

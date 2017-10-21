@@ -60,7 +60,7 @@ div#jump img
 
 div#header {
 	height: 150px;
-	width: 700px;
+	width: 680px;
 	text-align: right;
 
 
@@ -167,6 +167,11 @@ div#navigation ul.menu li.menu-mlid-799 a {
 	background-color: #3BA3D0;
 }
 
+div#navigation ul.menu li.menu-mlid-3241 a {
+	background-color: #ffcc6b;
+}
+
+
 /* KRIPPE MENU Color */
 
 div#navigation ul.menu li.menu-mlid-852 a {
@@ -198,6 +203,10 @@ div#navigation ul.menu li.menu-mlid-866 a {
 }
 div#navigation ul.menu li.menu-mlid-869 a {
 	background-color: #3BA3D0;
+}
+
+div#navigation ul.menu li.menu-mlid-3242 a {
+	background-color: #ffcc6b;
 }
 
 /* Nepomuk MENU Color */
@@ -233,6 +242,10 @@ div#navigation ul.menu li.menu-mlid-2808 a {
 	background-color: #3BA3D0;
 }
 
+div#navigation ul.menu li.menu-mlid-3243 a {
+	background-color: #ffcc6b;
+}
+
 div#navigation ul.menu ul li a {
 	
 	width: 160px;
@@ -254,7 +267,7 @@ div#navigation ul.menu li a:hover {
 div#contentWrapper {
 	background-color: #dfe58b;
 	margin-left: 300px;
-	width: 660px;
+	width: 640px;
 	padding: 20px;
 	padding-bottom: 100px;
 	
