@@ -1,9 +1,9 @@
 	<div id="nonFooter">
 	<div id="jump">
-		<?php 
-			$krippe = array(4,14,15,16,18,19,17,20,33);
-			$tagi = array(1,8,10,13,9,11,12,3,32);
-			$nepomuk = array(23,24,25,26,27,28,29,30,34);
+		<?php
+			$krippe = array(4,14,15,16,18,19,17,20,33, 41);
+			$tagi = array(1,8,10,13,9,11,12,3,32, 40);
+			$nepomuk = array(23,24,25,26,27,28,29,30,34, 39);
 
 			//print_r($node);
 
@@ -17,7 +17,7 @@
 				$current_site = "";
 			}
 
-			
+
 			// Tagi
 			if (in_array($node->nid, $tagi)) {
 				echo "<a href='/" . $current_site . "tagi'><img width='100' src='sites/all/themes/windrose/images/logo_tagi_100px.png' /></a>";
@@ -40,9 +40,9 @@
 				echo "<a href='/" . $current_site . "nepomuk'><img width='100' src='sites/all/themes/windrose/images/logo_nepomuk_100px_sw.png' /></a>";
 			}
 
-			
+
 		?>
-		
+
 	</div>
 	<div id="header">
 		<?php print render($page['header']); ?>
@@ -50,7 +50,7 @@
 	<div id="main">
 		<div id="navigation">
 
-			
+
 			<?php print render($page['sidebar_first']); ?>
 			<?php if ($main_menu): ?>
       			<?php print theme('links', $main_menu); ?>
@@ -58,11 +58,11 @@
 		</div>
 		<div id="contentWrapper">
 			<?php print $messages; ?>
-			
+
 			<?php print render($title_prefix); ?>
         	<?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
         	<?php print render($title_suffix); ?>
-			
+
 			<?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
        		<?php print render($page['help']); ?>
         	<?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
