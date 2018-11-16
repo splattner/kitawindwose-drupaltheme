@@ -3,9 +3,9 @@
 	<div id="frontWrapper">
 		<p>
 			<a href="/tagi"><img width="250" src="sites/all/themes/windrose/images/logo_tagi_500px.png" /></a>
-       		<a href="/nepomuk"><img width="250" src="sites/all/themes/windrose/images/logo_nepomuk_500px.png" /></a>
+       		<a href="/nepomuk"><img width="250" src="sites/all/themes/windrose/images/logo_nepomuk_neu_500px.png" /></a>
 			<a href="/krippe"><img width="250" src="sites/all/themes/windrose/images/logo_kita_500px.png" /></a>
-     
+
 		</p>
 		<p class="welcometitle">
       		Willkommen in der Kinderkrippe &amp; Sch&uuml;lertagesst&auml;tte Windrose in Langenthal
