@@ -35,9 +35,9 @@
 
 			//Nepomuk
 			if (in_array($node->nid, $nepomuk)) {
-				echo "<a href='/" . $current_site . "nepomuk'><img width='100' src='sites/all/themes/windrose/images/logo_nepomuk_100px.png' /></a>";
+				echo "<a href='/" . $current_site . "nepomuk'><img width='100' src='sites/all/themes/windrose/images/logo_nepomuk_neu_100px.png' /></a>";
 			} else {
-				echo "<a href='/" . $current_site . "nepomuk'><img width='100' src='sites/all/themes/windrose/images/logo_nepomuk_100px_sw.png' /></a>";
+				echo "<a href='/" . $current_site . "nepomuk'><img width='100' src='sites/all/themes/windrose/images/logo_nepomuk_neu_100px_sw.png' /></a>";
 			}
 
 
